@@ -9,12 +9,14 @@ export default defineConfig({
     integrations: [
         starlight({
             title: "Wiki by Alex",
+            logo: {
+                src: "./src/assets/logo.webp",
+            },
             social: {
                 github: "https://github.com/alllex/wiki",
             },
             editLink: {
-                baseUrl:
-                    "https://github.com/alllex/wiki/edit/main/",
+                baseUrl: "https://github.com/alllex/wiki/edit/main/",
             },
             lastUpdated: true,
             favicon: "/favicon.ico",
