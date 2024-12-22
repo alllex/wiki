@@ -2,6 +2,8 @@
 
 For sharing and caring
 
+Built with [Astro Starlight](https://starlight.astro.build/).
+
 ## Run locally
 
 ```
