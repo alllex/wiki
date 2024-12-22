@@ -12,6 +12,10 @@ export default defineConfig({
             social: {
                 github: "https://github.com/alllex/wiki",
             },
+            editLink: {
+                baseUrl:
+                    "https://github.com/alllex/wiki/edit/main/",
+            },
             favicon: "/favicon.ico",
             customCss: [
                 "@fontsource-variable/noto-sans",
