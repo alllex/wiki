@@ -31,6 +31,8 @@ fi
 
 ### Parameter substitution
 
+Excerpts from an advanced [parameter substitution guide](https://tldp.org/LDP/abs/html/parameter-substitution.html).
+
 Almost all substitution operators work with and without `:`. If `:` is used then the default value is substituted both when variable is *unset* or *empty*. If `:` is not used, then the default is substituted only when the variable is *unset*.
 
 ```bash
