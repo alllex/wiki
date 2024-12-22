@@ -16,6 +16,7 @@ export default defineConfig({
                 baseUrl:
                     "https://github.com/alllex/wiki/edit/main/",
             },
+            lastUpdated: true,
             favicon: "/favicon.ico",
             customCss: [
                 "@fontsource-variable/noto-sans",
