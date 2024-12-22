@@ -20,6 +20,9 @@ export default defineConfig({
                 "@fontsource-variable/jetbrains-mono/wght-italic.css",
                 "./src/tailwind.css",
             ],
+            expressiveCode: {
+                styleOverrides: { borderRadius: "0.3rem" },
+            },
             sidebar: [
                 {
                     label: "Intro",
