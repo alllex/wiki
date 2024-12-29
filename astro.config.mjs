@@ -39,6 +39,10 @@ export default defineConfig({
                     label: "Shells",
                     autogenerate: { directory: "shells" },
                 },
+                {
+                    label: "Colors",
+                    autogenerate: { directory: "colors" },
+                },
             ],
         }),
         tailwind({
