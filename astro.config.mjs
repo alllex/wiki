@@ -8,7 +8,7 @@ export default defineConfig({
     site: "https://alllex.github.io",
     integrations: [
         starlight({
-            title: "Wiki by Alex",
+            title: "Wiki",
             logo: {
                 src: "./src/assets/logo.webp",
             },
