@@ -80,17 +80,22 @@ fisher install IlanCosman/tide@v6
 
 ### Plugins
 
-`fzf` integration
+[`fzf` fuzzy-search](https://github.com/junegunn/fzf) [plugin](https://github.com/PatrickF1/fzf.fish)
 
 ```sh
 fisher install patrickf1/fzf.fish
 ```
 
-`z` utility
+`z` utility [plugin](https://github.com/jethrokuan/z)
 
 ```sh
 fisher install jethrokuan/z
 ```
 
+[SDKman](https://sdkman.io/) [plugin](https://github.com/reitzig/sdkman-for-fish)
+
+```sh
+fisher install reitzig/sdkman-for-fish@v2.1.0
+```
 
 
