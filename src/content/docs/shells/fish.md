@@ -46,7 +46,7 @@ https://github.com/jorgebucaran/awsm.fish
 
 Add to `~/.config/config.fish`:
 
-```
+```fish
 # Disable the fish greeting message
 set fish_greeting
 ```
