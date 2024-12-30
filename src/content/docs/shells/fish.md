@@ -51,6 +51,13 @@ Add to `~/.config/config.fish`:
 set fish_greeting
 ```
 
+### Brew
+
+```fish
+# Brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 ### Plugin management with `Fisher`
 
 [Fisher](https://github.com/jorgebucaran/fisher) seems to be the most popular plugin manager for Fish
