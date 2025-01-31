@@ -43,6 +43,10 @@ export default defineConfig({
                     label: "Colors",
                     autogenerate: { directory: "colors" },
                 },
+                {
+                    label: "macOS",
+                    autogenerate: { directory: "macos" },
+                },
             ],
         }),
         tailwind({
