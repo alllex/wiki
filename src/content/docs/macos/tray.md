@@ -18,3 +18,24 @@ TBD
 :::note
 Requires a logout or a restart to take effect
 :::
+
+More generally
+
+```
+defaults -currentHost write -globalDomain NSStatusItemSpacing -int X
+
+defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int Y
+```
+
+The default defaults can be restored by running:
+
+```
+defaults -currentHost delete -globalDomain NSStatusItemSpacing
+
+defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
+```
+
+
+## References
+
+- https://www.jessesquires.com/blog/2023/12/16/macbook-notch-and-menu-bar-fixes/
